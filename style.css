@@ -1,0 +1,201 @@
+body{
+        font-family: 'Poppins', sans-serif;
+}
+.container-one{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 30px;      
+        background-color: #161616;
+        height: 646px;
+        margin:50px 40px;
+        padding: 40px;
+       
+
+}
+ .show-off{
+        padding-left:106px;
+        padding-bottom: 111px;
+} 
+.show-off h1{
+        color: #ffff;
+        font-size: 50px;
+        
+       
+}
+.show-off p{
+        color: #ffff;
+        width: 440px;
+        margin-bottom: 30px;
+}
+.show-off a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        border-radius:5px ;
+        background-color:#DD0000;;
+}
+.pic-off{
+        height: 544px;
+        width: 550px;
+        padding: 200px 100px 0 0;
+        font-size: 50%;
+}
+.container-two{
+        display: flex;
+       margin: 100px 140px;
+}
+.channel-bar{
+        width: 300px;
+        height: 300px;
+        padding: 15px;
+        margin-right: 25px;
+        background-color: #161616;
+        border: 3px solid black;
+        border-radius: 10px;
+        display: grid;
+        align-items: center;
+}
+.show1 a{
+        color: black;
+        border: 2px solid black;
+        background-color: #ffff;
+        border-radius: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 17px 29px 17px 29px;;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 700;
+}
+.show2 a{
+        color: black;
+        border: 2px solid black;
+        background-color: #ffff;
+        border-radius: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 17px 29px 17px 29px;;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 700;
+}
+.show3 a{
+        color: #ffff;
+        background-color: red;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 17px 29px 17px 29px;;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 700;
+}
+
+.channels{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        
+}
+.football{
+        font-weight: 700;
+        border: 2px solid rgb(240, 230, 230);
+        padding: 10px;
+        border-radius: 10px;
+}
+.football img{
+        width: 100%;
+}
+button{
+        margin: 10px 10px 0px 10px;
+}
+p{
+        margin-left: 10px;
+}
+.icons{
+      display: flex;
+      margin-left: 10px;  
+}
+.comnt{
+        margin-left: 20px;
+}
+.footer{
+        border: 1px solid black;
+        padding: 70px 170px;
+        background-color: #161616;
+}
+.header-bar p{
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+}
+.footer-menu{
+        color: white;
+        border-top: 3px solid gray;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        text-align: center;
+}
+@media screen and (max-width:768px) {
+        .container-one{
+                display: flex;
+                flex-direction: column;
+                height: 1200px;      
+        }
+        .show-off{
+                width: 100%;
+        }
+        .pic-off{
+                width: 100%;
+                padding-left: 200px;
+                padding-bottom: 200px;
+        }
+
+        .container-two{
+                display: flex;
+                flex-direction: column;
+         }
+         .channel-bar{
+                width: 100%;
+                background-color: white;
+                border: 0;
+                
+         }
+        .channels{
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+        }
+        .footer-menu{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-gap: 10px;
+        }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+        .container-two{
+                display: flex;
+                flex-direction: column;
+        }
+        .channel-bar{
+                width: 100%;
+                border: 0;
+                background-color: white;
+        }
+        .channels{
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+        }
+        .footer-menu{
+                display: flex;
+                flex-wrap: wrap;
+        }
+        
+}
